@@ -1,0 +1,33 @@
+OVERTAKE como app no iPhone (GitHub Pages, gratuito)
+
+1. Antes de tudo, salve a sua carreira:
+   no jogo, abra o Menu e toque em "Copiar código do save". Cole o código no app Notas.
+
+2. Crie uma conta em github.com (se ainda não tiver).
+
+3. Crie um repositório novo:
+   botão "+" no topo, "New repository".
+   Nome: overtake. Deixe como Public e toque em "Create repository".
+
+4. Envie os arquivos:
+   na página do repositório, toque em "uploading an existing file"
+   (ou "Add file", depois "Upload files") e envie TODOS os arquivos desta pasta:
+   index.html, manifest.webmanifest, sw.js, icon-180.png, icon-192.png, icon-512.png.
+   Toque em "Commit changes".
+
+5. Ligue o site:
+   "Settings", depois "Pages". Em "Branch", escolha "main" e a pasta "/ (root)". Salve.
+   Em um ou dois minutos aparece o endereço, algo como:
+   https://SEU-USUARIO.github.io/overtake/
+
+6. No iPhone, abra esse endereço no Safari, toque em Compartilhar
+   e depois em "Adicionar à Tela de Início". O ícone do Overtake aparece na tela inicial
+   e o jogo abre em tela cheia, sem a barra do Claude.
+
+7. Abra o jogo pelo ícone, vá em Menu, "Carregar código do save" e cole o código do passo 1.
+
+Importante
+- Jogue sempre pelo ícone da tela de início, não pelo Safari comum: o save do ícone é separado.
+- Apagar o ícone apaga o save. De vez em quando, copie o código do save para o Notas.
+- Para atualizar o jogo no futuro, basta enviar o novo index.html para o repositório
+  (Add file, Upload files) por cima do antigo.
